@@ -1,7 +1,7 @@
 from collections import deque
 def bfs(grid_rows, grid_cols, pac_row, pac_col, food_row, food_col, grid):
     directions = [(-1,0), (0,-1), (0,1), (1,0)]
-    queue = deque([(int(pac_row), int(pac_col), [])])  # (row, col, path)
+    queue = deque([(int(pac_row), int(pac_col), [])])
     visited = set()
     visited.add((int(pac_row), int(pac_col)))
     nodes = []    
