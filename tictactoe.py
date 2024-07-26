@@ -1,11 +1,5 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
-import sys
-
 def checkwinner(board, player):
     winconditions = [
         [board[0][0], board[0][1], board[0][2]],
